@@ -15,7 +15,7 @@ class Usuario:
             "drafts": []
         }
     
-    # ========== PROPIEDADES (GETTERS) ==========
+    # PROPIEDADES (GETTERS)
     @property
     def nombre(self):
         """Getter para el nombre del usuario"""
@@ -26,7 +26,7 @@ class Usuario:
         """Getter para la dirección de correo"""
         return self._direccion_correo
     
-    # ========== MÉTODOS PÚBLICOS ==========
+    # MÉTODOS PÚBLICOS
     def agregar_mensaje_a_carpeta(self, nombre_carpeta, mensaje):
         """
         Agrega un mensaje a una carpeta específica

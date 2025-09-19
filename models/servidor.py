@@ -10,7 +10,7 @@ class ServidorCorreo:
         self._dominio = dominio
         self._usuarios = {}
     
-    # ========== PROPIEDADES (GETTERS) ==========
+    # PROPIEDADES (GETTERS) 
     @property
     def nombre(self):
         """Getter para el nombre del servidor"""
@@ -21,7 +21,7 @@ class ServidorCorreo:
         """Getter para el dominio del servidor"""
         return self._dominio
     
-    # ========== METODOS PUBLICOS ==========
+    # METODOS PUBLICOS 
     def registrar_usuario(self, usuario):
         """
         Registra un nuevo usuario en el servidor
